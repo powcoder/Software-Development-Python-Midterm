@@ -1,0 +1,62 @@
+{
+  "scoring": {
+    "java": {},
+    "jupyter": {},
+    "python": {
+      "expenses_test_full": {
+        "test_import_expenses_clothes": 0.67,
+        "test_import_expenses_coffee": 0.67,
+        "test_import_expenses_entertainment": 0.66,
+        "test_get_expense_existing_expense_coffee": 0.33, 
+        "test_get_expense_existing_expense_food": 0.33,
+        "test_get_expense_existing_expense_rent": 0.34,
+        "test_get_expense_non_existent_expense_phone": 0.50,
+        "test_get_expense_non_existent_expense_tv": 0.50,
+        "test_add_expense_new_expense": 0.67,
+        "test_add_expense_to_existing_expense_coffee": 0.67,
+        "test_add_expense_to_existing_expense_entertainment": 0.66,
+        "test_deduct_expense_from_existing_expense_coffee": 0.50,
+        "test_deduct_expense_from_existing_expense_entertainment": 0.50,
+        "test_deduct_expense_from_nonexistent_expense": 0.50,
+        "test_deduct_expense_deducting_too_much_from_expense": 0.50,
+        "test_update_expense_existing_expense_clothes": 0.67,
+        "test_update_expense_existing_expense_entertainment": 0.67,
+        "test_update_expense_nonexistent_expense": 0.66,
+        "test_sort_expenses_by_expense_type": 1,
+        "test_sort_expenses_by_amount": 1,
+        "test_export_expenses_with_existing_expense_types": 1,
+        "test_export_expenses_with_non_existent_expense_types": 1 
+      }
+    },
+    "c": {}
+  },
+  "extra_credit": {
+    "java": {},
+    "jupyter": {},
+    "python": {
+      "expenses_test_full": {}
+    },
+    "c": {}
+  },
+  "assignment_overview": {
+    "assignment_types": [
+      "python"
+    ],
+    "extra_credit_functions": {},
+    "ignore_files": ["expenses.txt", "export.txt", "export1.txt"],
+    "scoring": {
+      "java": {},
+      "c": {},
+      "python": {},
+      "jupyter": {}
+    },
+    "extra_credit": {
+      "java": {},
+      "c": {},
+      "python": {},
+      "jupyter": {}
+    },
+    "required_functions": {},
+    "required_files": ["expenses.py", "expenses_test.py"]
+  }
+}
